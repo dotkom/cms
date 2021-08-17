@@ -21,7 +21,7 @@ export default {
       title: "Ressurs bilde",
       type: "image",
       options: {
-        hotspot: true, // <-- Defaults to false
+        hotspot: true,
       },
       fields: [
         {
