@@ -7,12 +7,14 @@ export default {
       name: "title",
       title: "Tittel",
       type: "string",
+      validation: (Rule) => Rule.required().error("krever en tittel"),
     },
     {
       name: "description",
       title: "Beskrivelse",
       type: "array",
       of: [{ type: "block" }],
+      validation: (Rule) => Rule.required().error("krever en beskrivelse"),
     },
     {
       name: "thumbnail",
