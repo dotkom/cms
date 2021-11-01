@@ -1,7 +1,15 @@
 {
   "providers": {
     "mode": "append",
-    "redirectOnSingle": false,
-    "entries": []
+    "redirectOnSingle": true,
+    "entries": [
+      {
+        "name": "onlineweb4",
+        "title" : "Onlineweb Login",
+        "url" : "https://online.ntnu.no/auth/login/",
+        "logo":"static/online_bla.png",
+        "redirect_uri": "https:kashdakshd"
+      }
+    ]
   }
 }
