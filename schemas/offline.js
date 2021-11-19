@@ -26,17 +26,6 @@ const offlineSchema = {
       options: {
         hotspot: true,
       },
-      fields: [
-        {
-          name: "image_description",
-          type: "string",
-          title: "Bildebeskrivelse",
-          validation: (Rule) =>
-            Rule.required().error(
-              "Bildet trenger en beskrivelse. Trykk på 'Edit details'"
-            ),
-        },
-      ],
     },
   ],
 };
