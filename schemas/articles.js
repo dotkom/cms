@@ -19,11 +19,7 @@ const articleSchema = {
             type: "array",
             of: [{ type: "string" }],
         },
-        {
-            name: "published_date",
-            title: "Publisert dato",
-            type: "date",
-        },
+
         {
             name: "cover_image",
             title: "Forsidebilde",
@@ -57,7 +53,7 @@ const articleSchema = {
             ],
         },
     ],
-    initialValue: { published_date: new Date().toLocaleDateString() },
+
 };
 
 export default articleSchema;
