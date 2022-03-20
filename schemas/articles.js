@@ -11,6 +11,8 @@ const articleSchema = {
         },
         { name: "author", title: "Forfatter", type: "string" },
 
+        { name: "photographer", title: "Fotograf", type: "string" },
+
         {
             name: "tags",
             title: "Tags",
