@@ -9,6 +9,7 @@ import resources from "./resources";
 import staticPageSchema from "./static-page";
 import offlineSchema from "./offline";
 import articleSchema from "./articles";
+import careerSchema from "./career";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -21,6 +22,7 @@ export default createSchema({
         staticPageSchema,
         offlineSchema,
         articleSchema,
+        careerSchema,
         ...wikiSchema,
     ]),
 });
