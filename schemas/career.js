@@ -28,6 +28,26 @@ const careerSchema = {
       type: "string",
     },
     {
+      name: "career_role",
+      title: "Rolle / Stilling",
+      type: "string",
+    },
+    {
+      name: "linkdin",
+      title: "Linkdin - optional",
+      type: "string",
+    },
+    {
+      name: "twitter",
+      title: "Twitter - optional",
+      type: "string",
+    },
+    {
+      name: "facebook",
+      title: "Facebook - optional",
+      type: "string",
+    },
+    {
       name: "location",
       title: "Sted",
       type: "string",
